@@ -1,0 +1,197 @@
+/* Общие стили */
+body {
+    background-image: url(https://st.depositphotos.com/1280399/3548/i/950/depositphotos_35484885-stock-photo-white-background-canvas-texture-with.jpg);
+    background-size: 20%;
+    background-attachment: fixed;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+button {
+    background-color: #f40027;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#wrap {
+    width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#logo {
+    width: 10%;
+    float: left;
+}
+
+#menu {
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin: 20px 48px;
+}
+
+#main {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#main h3 {
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+
+#main p {
+    font-size: 16pt;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+#slider {
+    float: left;
+    background-image: url(https://marketingweek.imgix.net/content/uploads/2020/05/21173351/KFC-2.jpg);
+    width: 100%;
+    height: 444px;
+    background-attachment: fixed;
+}
+
+#slider h1 {
+    color: white;
+    margin: 167px 26px;
+    text-shadow: #000 1px 0 10px;
+}
+
+#locs {
+    text-align: center;
+}
+
+.bottom {
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.foodrow {
+    margin: 53px 0px;
+    float: left;
+}
+
+.foodcart {
+    width: 31%;
+    float: left;
+    margin: 0 11px;
+}
+
+.foodcart p {
+    font-size: 12pt;
+}
+
+.foodcart h4 {
+    font-size: 14pt;
+    color: #a71932;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 768px) {
+    #wrap {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #logo {
+        width: 50%;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    #menu {
+        width: 100%;
+        margin: 10px 0;
+        float: none;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu li {
+        float: none;
+        margin: 10px 0;
+    }
+
+    #slider {
+        height: 200px;
+    }
+
+    #slider h1 {
+        margin: 50px 10px;
+        font-size: 18px;
+    }
+
+    #main h3 {
+        font-size: 16px;
+    }
+
+    #main p {
+        font-size: 14px;
+    }
+
+    .foodcart {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .foodcart p {
+        font-size: 12px;
+    }
+
+    .foodcart h4 {
+        font-size: 14px;
+    }
+}
